@@ -23,3 +23,12 @@ p 	{
 a 	{
 	color: #52A5C7;
 }
+figure { 
+    margin-bottom: 2em;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ul 	{
+	list-style-type: none;
+	padding: 0;
+}
