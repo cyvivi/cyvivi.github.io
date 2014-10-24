@@ -28,7 +28,7 @@ hr {
 	margin: 20px 0 20px 0;
 }
 a {
-	
+	/* What am I supposed to format here? All of the links are images.*/
 }
 p {
 	font-size: 20px;
@@ -36,15 +36,21 @@ p {
 	font-family: helvetica, sans serif;
 	margin: 20px 0 20px 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 1090px) {
 	body {
-		background: rgb(83, 90, 106);
-		background-image: url(Unit3ProjectAssets/Assets/stripes.png);
-		background-position: top left;
-		background-repeat: repeat-x;
-		background-size: 300px 13px;
-	}
-	p {
-		width: 246px;
+		background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background2.png);
+		background-size: 500px 13px, 1200px;
 	}
 }
+@media (max-width: 920px) {
+	body {
+		background-size: 300px 13px, 0;
+	}
+}
+
+
+
+
+
+
+
