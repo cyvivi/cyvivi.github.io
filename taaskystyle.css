@@ -35,6 +35,7 @@ p {
 	color: white;
 	font-family: helvetica, sans serif;
 	margin: 20px 0 20px 0;
+	line-height: 150%;
 }
 @media (max-width: 1090px) {
 	body {
@@ -42,9 +43,17 @@ p {
 		background-size: 500px 13px, 1200px;
 	}
 }
-@media (max-width: 920px) {
+@media (max-width: 880px) {
 	body {
-		background-size: 300px 13px, 0;
+		background-size: 300px 13px, 1200px;
+	}
+	p {
+		width: 250px;
+	}
+	main {
+		background-color: rgba(61,71,86,.75);
+		margin: auto 50px;
+		width: 350px;
 	}
 }
 
