@@ -45,8 +45,9 @@ p {
 }*/
 @media (max-width: 1050px) {
 	body {
-		background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background3.png);
-		background-size: 500px 13px, 650px;
+		background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background4.png);
+		/*background-size: 500px 13px, 650px;*/
+		background-size: 500px 13px, constrain;
 		background-position: top left, center bottom;
 	}
 	p {
