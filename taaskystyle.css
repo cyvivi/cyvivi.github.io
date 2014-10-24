@@ -37,23 +37,40 @@ p {
 	margin: 20px 0 20px 0;
 	line-height: 150%;
 }
-@media (max-width: 1090px) {
+/*@media (max-width: 1090px) {
 	body {
-		background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background2.png);
-		background-size: 500px 13px, 1200px;
+		background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background3.png);
+		background-size: 500px 13px, 688px;
 	}
-}
-@media (max-width: 880px) {
+}*/
+@media (max-width: 1050px) {
 	body {
-		background-size: 300px 13px, 1200px;
+		background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background3.png);
+		background-size: 500px 13px, 650px;
+		background-position: top left, center bottom;
 	}
 	p {
 		width: 250px;
+		text-align: center;
 	}
+	hr {margin: 0 auto;}
+	h1 {text-align: center;}
 	main {
 		background-color: rgba(61,71,86,.75);
-		margin: auto 50px;
+		margin: 50px auto;
 		width: 350px;
+	}
+}
+@media (max-width: 500px) {
+	#download {
+		width: 200px;
+	}
+	p {
+		width: 200px;
+		font-size: 16px;
+	}
+	main {
+		width: 300px;
 	}
 }
 
