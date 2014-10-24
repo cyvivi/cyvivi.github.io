@@ -1,22 +1,21 @@
 * { margin:0; padding:0; box-sizing: border-box; }
 body {
 	background: rgb(83, 90, 106);
-	background-image: url(Unit3ProjectAssets/Assets/background.jpg), url(Unit3ProjectAssets/Assets/stripes.png);
-	background-position: right bottom, top left;
-	background-repeat: no-repeat, repeat-x;
+	background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background.jpg);
+	background-position: top left, right bottom;
+	background-repeat: repeat-x, no-repeat;
 	background-attachment: fixed; 
 }
 main {
-	/*margin: -100px 0 0 50px;
-	top: 50%;*/
-	width: 1000px;
-	height: 215px;
+	max-width: 1000px;
+	height: 315px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	right: 0;
 	left: 0;
 	margin: auto;
+	padding: 50px;
 }
 h1 {
 	margin: 0 0 10px 0;
@@ -36,4 +35,16 @@ p {
 	color: white;
 	font-family: helvetica, sans serif;
 	margin: 20px 0 20px 0;
+}
+@media (max-width: 600px) {
+	body {
+		background: rgb(83, 90, 106);
+		background-image: url(Unit3ProjectAssets/Assets/stripes.png);
+		background-position: top left;
+		background-repeat: repeat-x;
+		background-size: 300px 13px;
+	}
+	p {
+		width: 246px;
+	}
 }
