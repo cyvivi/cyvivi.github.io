@@ -1,13 +1,17 @@
 * { margin:0; padding:0; box-sizing: border-box; }
 body {
+<<<<<<< HEAD
 	background-color: rgb(83, 90, 106); 
+=======
+	background: rgb(83, 90, 106);
+>>>>>>> parent of d11ed5b... Merge pull request #6 from jhumbrac/patch-6
 	background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background.jpg);
-	background-position: top left, right bottom; /* auto, cover */
+	background-position: top left, right bottom;
 	background-repeat: repeat-x, no-repeat;
-	background-attachment: fixed; /* don't need this */
-
+	background-attachment: fixed; 
 }
 main {
+<<<<<<< HEAD
 	width: 1000px; 
 	/*height: 315px; /* don't need a height */
 	position: absolute; /* don't absolute position major html elements unless absolutely necessary */
@@ -16,24 +20,50 @@ main {
 	right: 0;
 	left: 0;  -- remove everything in here. also, when you absolute position something you only need a max of 2 of these. putting all 4 will cause errors */
 	margin: 0 auto 0 auto; /* something like margin:0 auto 0 auto; will center a block element such as <main> */
+=======
+	max-width: 1000px;
+	height: 315px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+>>>>>>> parent of d11ed5b... Merge pull request #6 from jhumbrac/patch-6
 	padding: 50px;
 }
 h1 {
 	margin: 0 0 10px 0;
 }
 hr {
+<<<<<<< HEAD
 	border: 1.5px rgb(239,133,127) solid;
 	width: 50px;
 	margin: 20px 0;
+=======
+	background-color: rgb(239, 133, 127);
+	height: 3px;
+	border: 0;
+	width: 50px;
+	margin: 20px 0 20px 0;
+}
+a {
+	/* What am I supposed to format here? All of the links are images.*/
+>>>>>>> parent of d11ed5b... Merge pull request #6 from jhumbrac/patch-6
 }
 p {
 	font-size: 20px;
 	color: white;
 	font-family: helvetica, sans serif;
+<<<<<<< HEAD
 	margin: 20px 0;
 	line-height: 32.4px; 
+=======
+	margin: 20px 0 20px 0;
+	line-height: 150%;
+>>>>>>> parent of d11ed5b... Merge pull request #6 from jhumbrac/patch-6
 }
-/*  good thought process here, i can explain responsiveness in a 1:1 later if you would like
+/*
 @media (max-width: 1050px) {
 	body {
 		background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background4.png);
