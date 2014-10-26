@@ -1,6 +1,8 @@
 * { margin:0; padding:0; box-sizing: border-box; }
+
+/* I tried the changes you told me to do, but it didn't work. Or it looked like it didn't on my browser, at least. So I'm just submitting as is for now. */
 body {
-	background: rgb(83, 90, 106);
+	background-color: rgb(83, 90, 106);
 	background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background.jpg);
 	background-position: top left, right bottom;
 	background-repeat: repeat-x, no-repeat;
@@ -26,9 +28,6 @@ hr {
 	border: 0;
 	width: 50px;
 	margin: 20px 0 20px 0;
-}
-a {
-	/* What am I supposed to format here? All of the links are images.*/
 }
 p {
 	font-size: 20px;
