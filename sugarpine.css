@@ -1,9 +1,11 @@
 * { margin:0; padding:0; box-sizing: border-box; }
 body {
-	background: url("http://gallery.yopriceville.com/var/albums/Backgrounds/Aromatic_Coffee_Beans_Background.jpg?m=1399680261");
+	background: url("sugarpine/coffeebkg2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-color: #0e0a07;
 }
+html {height: 100%;}
 #logo {
 	width: 400px;
 }
