@@ -1,0 +1,12 @@
+* { margin:0; padding:0; box-sizing: border-box; }
+body {
+	background: url("http://gallery.yopriceville.com/var/albums/Backgrounds/Aromatic_Coffee_Beans_Background.jpg?m=1399680261");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#logo {
+	width: 400px;
+}
+h1 {
+	margin: 100px;
+}
