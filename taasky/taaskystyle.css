@@ -4,6 +4,7 @@
 body {
 	background:url(Unit3ProjectAssets/Assets/stripes.png) repeat-x, url(Unit3ProjectAssets/Assets/background.jpg) no-repeat rgb(83, 90, 106);
 	background-size: auto, cover;
+	height:100vh;
 }
 section {
 	width: 600px;
