@@ -2,22 +2,15 @@
 
 /* I tried the changes you told me to do, but it didn't work. Or it looked like it didn't on my browser, at least. So I'm just submitting as is for now. */
 body {
-	background-color: rgb(83, 90, 106);
-	background-image: url(Unit3ProjectAssets/Assets/stripes.png), url(Unit3ProjectAssets/Assets/background.jpg);
-	background-position: top left, right bottom;
-	background-repeat: repeat-x, no-repeat;
-	background-attachment: fixed; 
+	background:url(Unit3ProjectAssets/Assets/stripes.png) repeat-x, url(Unit3ProjectAssets/Assets/background.jpg) no-repeat rgb(83, 90, 106);
+	background-size: auto, cover;
 }
 main {
 	max-width: 1000px;
-	height: 315px;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	margin: auto;
 	padding: 50px;
+	position: relative;
+	top:50%;
+	transform: translateY(-50%);
 }
 h1 {
 	margin: 0 0 10px 0;
@@ -34,7 +27,7 @@ p {
 	color: white;
 	font-family: helvetica, sans serif;
 	margin: 20px 0 20px 0;
-	line-height: 163%;
+	line-height: 1.62em;
 }
 /*
 @media (max-width: 1050px) {
