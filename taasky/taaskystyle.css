@@ -5,8 +5,8 @@ body {
 	background:url(Unit3ProjectAssets/Assets/stripes.png) repeat-x, url(Unit3ProjectAssets/Assets/background.jpg) no-repeat rgb(83, 90, 106);
 	background-size: auto, cover;
 }
-main {
-	max-width: 1000px;
+section {
+	width: 1000px;
 	padding: 50px;
 	position: relative;
 	top:50%;
